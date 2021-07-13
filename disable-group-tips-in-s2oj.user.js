@@ -1,10 +1,13 @@
 // ==UserScript==
 // @name         Disable Group Tips in S2OJ
 // @namespace    https://baoshuo.ren/
-// @version      0.1.0
+// @version      0.1.1
 // @description  Disable Group Tips in S2OJ
 // @author       Ren Baoshuo <i@baoshuo.ren>
 // @match        *://sjzezoj.com/*
+// @match        *://www.sjzezoj.com/*
+// @match        *://sjzezoj.com:9280/*
+// @match        *://www.sjzezoj.com:9280/*
 // @icon         https://sjzezoj.com/images/logo_small.png
 // @grant        none
 // @license      GPL-3.0-only
@@ -38,4 +41,5 @@
             location.reload();
         };
     }
+    console.log('Successfuly loaded `Disable Group Tips in S2OJ` user script.\n', '* Author: Ren Baoshuo <i@baoshuo.ren>\n', '* Website: https://baoshuo.ren\n', '* GitHub: https://github.com/renbaoshuo/disable-group-tips-in-s2oj\n');
 })();
