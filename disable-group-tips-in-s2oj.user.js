@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Disable Group Tips in S2OJ
 // @namespace    https://baoshuo.ren/
-// @version      0.1.1
+// @version      0.1.2
 // @description  Disable Group Tips in S2OJ
 // @author       Ren Baoshuo <i@baoshuo.ren>
 // @match        *://sjzezoj.com/*
